@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 8fr;
+    grid-template-rows: 1fr 1.5fr 8fr;
+    height: 100vh;
+
+}
+/* for side menubar */
+.box {
+    border: 1px solid rgb(145, 136, 136);
+}
+
+#item1 {
+    grid-row: 1 / span 3;
+    display: flex;
+    flex-direction: column;
+}
+#item1 h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.sidemenu{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ /* border: 2px solid black; */
+ border-radius: 1.2rem;;
+}
+.sidemenu:hover{
+   background-color:rgb(99, 160, 213);
+}
+#menu1 a:hover{
+    color:blue;
+}
+
+#item2 {
+    grid-column: 2 /span 2;
+}
+
+#item3 {
+    grid-column: 2 /span 2;
+}
+
+#menu1,
+#menu2 {
+    /* border: 2px solid black; */
+    margin: .3rem;
+    padding: .8rem;
+}
+
+#menu2 input {
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.sidemenu {
+    margin: .3rem;
+    padding: .3rem 1rem;
+}
+
+/* for navbar */
+#item2{
+    display: flex;
+
+}
+#nav1 a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: .15rem;
+    margin:.2rem
+}
+#nav1{
+    border-radius:1.2rem;
+    height: 2rem;
+}
+#nav1 a{
+    font-family:Verdana, Geneva, Tahoma;
+}
+#nav1 a:hover{
+    color:blue;
+}
+.nav{
+    margin:.3rem;
+    padding: .5rem;
+}
+.nav input{
+    border-radius:1rem;
+    padding:.5rem 2rem;
+}
+#nav3{
+    margin-left:32rem;
+}
+#nav3btn1:hover{
+background-color: antiquewhite;
+}
+#nav3btn2{
+    color: white;
+    background-color: rgb(167, 93, 231);
+}
+#nav3btn2:hover{
+    background-color:rgb(109, 6, 205);    
+}
+/* For date manu */
+#item3{
+    /* border: 2px solid black; */
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.datemenu{
+    display: flex;
+    flex-direction:column;
+    border-radius: .6rem;
+    width:2.5rem;
+    text-align: center;
+}
+.datemenu:hover{
+    background-color: grey;
+}
+
+.element{
+    margin: .2rem;
+    font-size: .8rem;
+}
+.date{
+    font-size:1.5rem;
+    margin-left: .1rem;
+}
+
+.arrow{
+    background-color:whitesmoke;
+    height: 2rem;
+    width: 2rem;
+    box-sizing: border-box;
+    padding: .4rem .6rem;
+    border-radius: 2rem;
+}
+.arrow:hover{
+    background-color:grey;
+}
+/* For time menu */
+#item4{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.time{
+    width:3.5rem;
+    text-align: center;
+    border-radius: .7rem;
+}
+.time:hover{
+background-color:rgb(113, 227, 227);
+}
+/* For meet */
+#item5{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+}
+.meet{
+    height: 6.9rem;
+    width: 6.5rem;
+    border: .001px solid rgb(205, 195, 195);
+    
+}
+.image{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+.submeet{
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: .2rem;
+    height: 6.5rem;
+    width: 5rem;
+    padding:.5rem;
+    border-radius: .5rem;
+    transition: .2s;
+}
+.submeet:hover{
+height: 6.7rem;
+width:5.3rem;
+}
+#submeet1,#submeet2,#submeet7{
+    background-color:rgb(237, 228, 228);
+}
+#submeet3{
+    background-color: rgb(189, 230, 230);
+}
+#submeet4{
+    background-color: aquamarine;
+}
+#submeet5{
+    background-color: rgb(246, 169, 106);
+}
+#submeet6{
+    background-color: rgb(116, 232, 193);
+}
+#submeet8{
+    background-color: rgb(235, 117, 180);
+}
